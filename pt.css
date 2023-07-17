@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #df1616;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #dd0e0e;
+    color: #1c19e4;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.layanan {
+    margin-top: 30px;
+}
+
+.layanan h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.layanan ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.layanan li {
+    flex-basis: 30%;
+    padding: 10px;
+    background-color: #eb1313;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(224, 204, 204, 0.1);
+    margin-bottom: 20px;
+}
+
+.layanan li img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
